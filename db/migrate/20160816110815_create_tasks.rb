@@ -1,6 +1,6 @@
-class CreateToDoLists < ActiveRecord::Migration[5.0]
+class CreateTasks < ActiveRecord::Migration[5.0]
   def change
-    create_table :to_do_lists do |t|
+    create_table :tasks do |t|
       t.string :name
       t.boolean :completed
 

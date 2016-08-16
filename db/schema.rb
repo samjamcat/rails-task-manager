@@ -10,9 +10,9 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160816101600) do
+ActiveRecord::Schema.define(version: 20160816110815) do
 
-  create_table "to_do_lists", force: :cascade do |t|
+  create_table "tasks", force: :cascade do |t|
     t.string   "name"
     t.boolean  "completed"
     t.datetime "created_at", null: false
